@@ -1,0 +1,54 @@
+header {
+    text-align: center;
+    font-size: 200%;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #B0413E;
+}
+
+body {
+    background-color: #FCAA67;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h2 {
+    background-color: #548687;
+    text-align: left;
+    border-radius: 5px;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .card-container {
+    flex: 1;
+    margin: 15px;
+    border: 5px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    flex-direction: column;
+    background-color: #B0413E;
+   
+  }
+  
+  .card-header {
+  
+    text-align: center;
+    
+  }
+  
+  .list {
+    margin-bottom: 30px;
+    text-align: left;
+  }
+  
+  .list li {
+    margin-bottom: 5px;
+  }
+  
+  img {
+    width: 100%;
+    padding: auto;
+  }
